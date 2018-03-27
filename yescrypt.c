@@ -131,6 +131,6 @@ static PyMethodDef YescryptMethods[] = {
     { NULL, NULL, 0, NULL }
 };
 
-PyMODINIT_FUNC initytn_yescrypt(void) {
-    (void) Py_InitModule("ytn_yescrypt", YescryptMethods);
+PyMODINIT_FUNC initwavi_yescrypt(void) {
+    (void) Py_InitModule("wavi_yescrypt", YescryptMethods);
 }
